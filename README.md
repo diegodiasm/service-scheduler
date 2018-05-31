@@ -1,17 +1,18 @@
 # service-scheduler
 Service scheduler 
 
-A service-scheduler with two kinds of user: a service-agent, and admin.
-This system allows the admin to set the number of agents for a fixed
+An appointment scheduler with two kinds of user: a service-agent, and admin.
+This system allows the admin to set the number of agents for a fixed kind of
 service, and the duration of each time-slot available for appointment,
-and collect statistics of the service.
+and collect statistics of the service. The service-agent is given the permission
+of booking new appointments upon a customer request and cancel appointments.
 
 The system also implements a display module, that can be used to call
-service-users when they are ready to be dispatched, and display 
-relevant information for them in the form of a scrolling text.
+customers when they are ready to be dispatched, and display 
+relevant information for them in the form of a scrolling text. The relevant
+information is set by the admin of the system.
 
 Developed using Java 7 + Swing + PostgreSQL + JPA
-
 
 ------------------- Agendamento de Atendimento --------------------
 
